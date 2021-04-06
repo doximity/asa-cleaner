@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+bundle install --path vendor/bundle --without development
+rm -f asa-cleaner.zip
+zip -r asa-cleaner.zip Gemfile* lib/* *.rb vendor/* .bundle
+rm -rf vendor/ .bundle/
