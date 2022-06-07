@@ -22,7 +22,7 @@ GEM
     http-accept (1.7.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    jmespath (1.4.0)
+    jmespath (1.6.1)
     json (2.5.1)
     link-header-parser (2.2.0)
       absolutely (~> 5.1)
